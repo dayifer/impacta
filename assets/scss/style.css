@@ -125,6 +125,16 @@
   text-align: center;
   height: 340px;
   position: relative;
+}
+.span-content-blue-footer {
+  background-color: #001c3a;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0em;
+  padding-right: 0em;
+  text-align: center;
+  height: 280px;
+  position: relative;
 
 }
 
@@ -258,12 +268,14 @@ hr {
 
 .grid-container-footer {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 12px;
   background-color:#001c3a;
   padding: 10px;
   grid-column-gap: 7px;
   grid-row-gap: 1em;
+  
+
 }
 
 .grid-container-footer > div {
@@ -271,8 +283,40 @@ hr {
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+  text-align: left;
+  
 }
 
+.footer-text {
+  color: #ffff;
+  text-align: left;
+  font-size: 10px;
+  line-height: 1.8em;
+  list-style: none;
+}
+
+.title-red {
+  color: #e2001a;
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.8em;
+  padding-left: 35px;
+}
+
+.title-white {
+  color: #fff;
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.8em;
+  padding-left: 35px;
+}
+.footer-img {
+  position: relative;
+  display: block;
+  margin-top: -100px;
+  margin-right: 20px;
+  margin-left: 1200px;
+}
 /*****/
 
 
@@ -442,11 +486,11 @@ header {
 }
 
 nav {
-  text-align: center;
-  float: left;
+  text-align: center;  
   justify-content: center;
-  padding-left: 20em;
+  padding-left: 28em;
   position: relative;
+  height: 1em;
   
 }
 
@@ -467,7 +511,7 @@ nav ul li a {
   text-decoration: none;
 }
 nav ul li:hover {
-  background: #eca023;
+  /*background: #eca023;*/
 }
   /*
 .outfit-font {
